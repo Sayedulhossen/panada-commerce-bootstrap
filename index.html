@@ -11,7 +11,7 @@
 <body>
     <!-- header start -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top mb-5">
             <div class="container">
               <a class="navbar-brand" href="#">
                   <img src="images/logo.png" alt="">
@@ -25,19 +25,22 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#watch">Watch</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Subscribe</a>
+                    <a class="nav-link" href="#backpack">Backpack</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#subscribe">Subscribe</a>
                   </li>
               </div>
             </div>
           </nav>
           <!-- image slider -->
-          <section class="container">
+          <section class="container mt-5">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -98,7 +101,7 @@
     <!-- header end -->
     <!-- categories item -->
     <main>
-        <section class="container my-5">
+        <section id="watch" class="container my-5">
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="bg-warning p-3 border rounded-3 d-flex align-items-center justify-content-between">
@@ -120,8 +123,8 @@
             </div>
         </section>
         <!-- Shoes section -->
-        <section class="container my-5">
-            <h1>Backpack</h1>
+        <section id="shoes" class="container my-5">
+            <h1>Shoes</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
                   <div class="card h-100 border-0 shadow-lg">
@@ -165,8 +168,8 @@
               </div>
         </section>
         <!-- Backpack section -->
-        <section class="container my-5">
-            <h1>Shoes</h1>
+        <section id="backpack" class="container my-5">
+            <h1>Backpack</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
                   <div class="card h-100 border-0 shadow-lg">
